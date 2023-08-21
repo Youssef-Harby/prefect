@@ -2,6 +2,7 @@
   <p-context-sidebar class="context-sidebar">
     <p-context-nav-item title="Dashboard" icon="ChartBarSquareIcon" :to="routes.dashboard()" />
     <p-context-nav-item title="Flow Runs" icon="FlowRun" :to="routes.flowRuns()" />
+    <p-context-nav-item title="Servers" icon="ServerStackIcon" :to="routes.servers()" />
     <p-context-nav-item title="Flows" icon="Flow" :to="routes.flows()" />
     <p-context-nav-item title="Deployments" icon="MapPinIcon" :to="routes.deployments()" />
     <p-context-nav-item v-if="canSeeWorkPools" title="Work Pools" icon="CircleStackIcon" :to="routes.workPools()" />
